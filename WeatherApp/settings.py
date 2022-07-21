@@ -78,8 +78,12 @@ WSGI_APPLICATION = 'WeatherApp.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd1u3ipd5q4c10a',
+        'USER': 'gbgfhiaxqekoae',
+        'PASSWORD': 'fe882a5a85e3886af7d955c287c7ff85efeabab4329f8d7786db9a9547205ae7',
+        'HOST': 'ec2-34-235-198-25.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
